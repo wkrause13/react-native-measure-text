@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { RNMeasureText } = NativeModules;
+const { RNMeasureText,  RNMeasureTextWidth} = NativeModules;
 
-export default RNMeasureText;
+export {RNMeasureText, RNMeasureTextWidth};
